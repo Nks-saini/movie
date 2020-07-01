@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.main{
+  /* border: 1px solid red; */
+  align-items: center;
+  height:auto;
+  width: 40%;
+  display: flex;
+
+}
+
+.left{
+  /* border: 1px solid black; */
+  width: 50%;
+}
+
+.right{
+  text-align: left;
+  /* border: 1px solid green; */
+  width: 50%;
+
+}
+
+.right p{
+  font-size: 20px;
+  font-weight:bold;
+  color: gray;
+}
+
+.right h4{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-transform: capitalize;
+  font-size: medium;
+}
+
+.right h3{
+  color: blue;
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+
+.dropbtn {
+  background-color:rebeccapurple;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: auto;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px 0px black;
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
